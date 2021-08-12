@@ -424,7 +424,7 @@ else if (patient.gfr < 30) {
 	val += 6.84;
 }	
 
-// val / num
+// val / num  is the "weighted" av even tho its a normal av
 if (num != 0)
 	progressionRate = val/num;]]></Body>
 				</Function>
